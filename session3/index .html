@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container py-2">
+         <!-- <button class="btn btn-success">add client</button> -->
+         <h3 class="text-success">  Add Customer </h3>
+    </div>
+    <div class="container">
+        <form id = "customer-add">
+            <div class="form-group">
+               <input class="form-control" id= "name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="balance">
+             </div>
+             <div class="form-group">
+             <button class="btn btn-info">add data</button>
+             </div>
+        </form>
+    </div>
+    
+
+    <section class='container'>
+       
+            <div  class="active-pink-3 active-pink-4 mb-4">
+                <input id ="searchinput" class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </div>
+
+        <table id="table" class="table table-striped table-bordered">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Account Number</th>
+                <th>Balance</th>
+                <th>Action</th>
+            </tr>
+            
+                
+          
+        </table>
+    </section>
+    
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="js/custom.js"></script>    
+</body>
+</html>
